@@ -1,0 +1,45 @@
+{
+  "name": "@plgeek/dev-workflow-config",
+  "version": "1.0.0",
+  "description": "Reusable development workflow configuration with git hooks, linting, and commit standards",
+  "main": "index.js",
+  "bin": {
+    "setup-dev-workflow": "./bin/setup.js"
+  },
+  "files": [
+    "templates/",
+    "bin/",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "git-hooks",
+    "husky",
+    "lint-staged",
+    "commitizen",
+    "development",
+    "workflow",
+    "biome",
+    "vscode"
+  ],
+  "author": "plgeek",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "fs-extra": "^11.3.0"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module"
+}

@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "biomejs.biome",
+    "bradlc.vscode-tailwindcss",
+    "Prisma.prisma",
+    "unifiedjs.vscode-mdx",
+    "mikestead.dotenv",
+    "christian-kohler.npm-intellisense",
+    "ms-vscode.vscode-typescript-next",
+    "ms-playwright.playwright",
+    "vitest.explorer",
+    "github.vscode-pull-request-github"
+  ],
+  "unwantedRecommendations": [
+    "esbenp.prettier-vscode",
+    "ms-vscode.vscode-eslint"
+  ]
+}
