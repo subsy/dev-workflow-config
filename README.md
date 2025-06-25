@@ -2,6 +2,8 @@
 
 A reusable development workflow configuration package that sets up git hooks, linting, commit standards, and VSCode settings for any JavaScript/TypeScript project.
 
+Designed to work on top of [next-forge](https://www.next-forge.com)
+
 ## What it configures
 
 🪝 **Git Hooks (Husky)**
